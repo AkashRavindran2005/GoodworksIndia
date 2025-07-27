@@ -63,7 +63,7 @@ const HeroSection = () => {
                   fontWeight: '700', 
                   color: 'var(--primary-orange)' 
                 }}>
-                  500+
+                  15+
                 </div>
                 <div style={{ color: 'var(--text-light)', fontSize: '0.9rem' }}>
                   Children Supported
@@ -75,7 +75,7 @@ const HeroSection = () => {
                   fontWeight: '700', 
                   color: 'var(--primary-green)' 
                 }}>
-                  25+
+                  10+
                 </div>
                 <div style={{ color: 'var(--text-light)', fontSize: '0.9rem' }}>
                   Communities Served
@@ -91,7 +91,7 @@ const HeroSection = () => {
           >
             <div style={{ position: 'relative' }}>
               <img
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="./gwhero.jpeg"
                 alt="Children learning together"
                 style={{
                   width: '100%',

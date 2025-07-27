@@ -153,6 +153,7 @@ img {
   display: flex;
   gap: 2rem;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-mobile {

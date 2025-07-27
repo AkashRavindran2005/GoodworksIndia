@@ -11,29 +11,29 @@ const Home = () => {
   const programs = [
     {
       icon: <BookOpen size={20} />,
-      title: '',
-      description: '',
+      title: 'Education Program',
+      description: 'Comprehensive educational support for underprivileged children.',
       category: 'Education',
       image: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
     },
     {
       icon: <Heart size={20} />,
-      title: '',
-      description: '',
+      title: 'Healthcare Initiative',
+      description: 'Medical camps and health awareness programs for communities.',
       category: 'Healthcare',
       image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
     },
     {
       icon: <Users size={20} />,
-      title: '',
-      description: '',
+      title: 'Community Development',
+      description: 'Skills development and livelihood programs.',
       category: 'Community',
       image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
     },
     {
       icon: <Utensils size={20} />,
-      title: '',
-      description: '',
+      title: 'Nutrition Program',
+      description: 'Ensuring proper nutrition for growing children.',
       category: 'Nutrition',
       image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
     }

@@ -41,10 +41,15 @@ const Navbar = () => {
             fontWeight: '700',
             color: 'var(--text-dark)'
           }}>
-            <Heart size={28} style={{ color: 'var(--primary-orange)' }} />
-            GoodworksIndia
+            <img src = "./logo.jpeg" width={100} height={100} alt='Goodworks India'/>
           </Link>
-          <div className="nav-desktop">
+        <div className="nav-desktop" style={{
+          position: 'absolute',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          display: 'flex',
+          gap: '2rem',
+          alignItems: 'center',}}>
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -52,7 +57,7 @@ const Navbar = () => {
                 style={{
                   color: isActive(item.path) ? 'var(--primary-orange)' : 'var(--text-dark)',
                   fontWeight: isActive(item.path) ? '600' : '500',
-                  padding: '0.5rem 1rem',
+                  padding: '0.5rem',
                   borderRadius: 'var(--radius)',
                   borderBottom: isActive(item.path) ? '2px solid var(--primary-orange)' : '2px solid transparent',
                   transition: 'var(--transition)'
