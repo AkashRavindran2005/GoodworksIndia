@@ -47,8 +47,7 @@ const Footer = () => {
               color: 'var(--white)',
               marginBottom: '1rem'
             }}>
-              <Heart size={24} style={{ color: 'var(--primary-orange)' }} />
-              GoodworksIndia
+              Goodworks India
             </Link>
             <p style={{
               color: '#bdc3c7',
@@ -56,8 +55,7 @@ const Footer = () => {
               marginBottom: '1rem',
               fontSize: '0.9rem'
             }}>
-              We are here not for income, but for outcome. Empowering children 
-              and communities to build a brighter future.
+              Together for development, United for impact.
             </p>
             <div style={{
               display: 'flex',
@@ -68,15 +66,15 @@ const Footer = () => {
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <MapPin size={14} />
-                123 Community Street, New Delhi 110001
+                R601 KLP Utsav Apartments, 292, Cooks Road, Otteri, Chennai - 600012
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Phone size={14} />
-                +91 98765 43210
+                +91 98402 63329
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Mail size={14} />
-                info@goodworksindia.org
+                goodworksindia2022@gmail.com
               </div>
             </div>
           </div>

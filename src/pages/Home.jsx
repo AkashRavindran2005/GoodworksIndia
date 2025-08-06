@@ -78,8 +78,8 @@ const Home = () => {
               color: 'var(--text-dark)',
               marginBottom: '1rem'
             }}>
-              We are here not for income, but for{' '}
-              <span style={{ color: 'var(--primary-orange)' }}>outcome</span>
+              Together for development, United for {' '}
+              <span style={{ color: 'var(--primary-orange)' }}>impact</span>
             </h2>
             <p style={{
               fontSize: '1.1rem',
@@ -88,8 +88,7 @@ const Home = () => {
               margin: '0 auto',
               lineHeight: '1.7'
             }}>
-              We are a dedicated team of professionals working to spread goodness that enriches lives 
-              and creates a brighter future for children and communities across India.
+            We are a passionate team working hand-in-hand with communities to drive sustainable growth and uplift children and families across India. From education and health to livelihoods and empowerment, our initiatives are rooted in compassion and built for sustainable development.
             </p>
           </motion.div>
         </div>
@@ -117,7 +116,7 @@ const Home = () => {
               maxWidth: '600px',
               margin: '0 auto'
             }}>
-              Comprehensive programs designed to create lasting impact in children's lives.
+            Empowering lives through thoughtful initiatives focused on children and communities.
             </p>
           </motion.div>
 

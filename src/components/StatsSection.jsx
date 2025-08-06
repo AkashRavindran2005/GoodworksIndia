@@ -6,13 +6,13 @@ const StatsSection = () => {
   const stats = [
     {
       icon: <Users size={28} />,
-      number: '500+',
+      number: '200+',
       label: 'Children Supported',
       color: 'var(--primary-orange)'
     },
     {
       icon: <Heart size={28} />,
-      number: '25+',
+      number: '15+',
       label: 'Communities Served',
       color: 'var(--primary-green)'
     },
@@ -21,12 +21,6 @@ const StatsSection = () => {
       number: '100+',
       label: 'Programs Completed',
       color: 'var(--primary-orange)'
-    },
-    {
-      icon: <MapPin size={28} />,
-      number: '10+',
-      label: 'States Covered',
-      color: 'var(--primary-green)'
     }
   ];
 

@@ -23,8 +23,8 @@ const HeroSection = () => {
               marginBottom: '1.5rem',
               lineHeight: '1.2'
             }}>
-              Empowering Children's{' '}
-              <span style={{ color: 'var(--primary-orange)' }}>Bright Future</span>
+              Empowering lives, {' '}
+              <span style={{ color: 'var(--primary-orange)' }}>Enabling progress</span>
             </h1>
             
             <p style={{
@@ -33,8 +33,7 @@ const HeroSection = () => {
               marginBottom: '2rem',
               lineHeight: '1.7'
             }}>
-              We are here not for income, but for outcome. Join us in creating 
-              lasting change in children's lives through education, healthcare, and community support.
+              Through inclusive programs and grassroots engagement, we support children, youth, and communities to rise above limitations and build resilient futures. Our work is driven by the belief that lasting change begins with collective action and equal opportunity.
             </p>
 
             <div style={{
@@ -47,7 +46,7 @@ const HeroSection = () => {
                 Our Programs <ArrowRight size={18} />
               </Link>
               <Link to="/about" className="btn btn-outline">
-                <Play size={18} /> Learn More
+                <Play size={18} /> About Us
               </Link>
             </div>
 
@@ -63,7 +62,7 @@ const HeroSection = () => {
                   fontWeight: '700', 
                   color: 'var(--primary-orange)' 
                 }}>
-                  15+
+                  200+
                 </div>
                 <div style={{ color: 'var(--text-light)', fontSize: '0.9rem' }}>
                   Children Supported
@@ -75,7 +74,7 @@ const HeroSection = () => {
                   fontWeight: '700', 
                   color: 'var(--primary-green)' 
                 }}>
-                  10+
+                  15+
                 </div>
                 <div style={{ color: 'var(--text-light)', fontSize: '0.9rem' }}>
                   Communities Served

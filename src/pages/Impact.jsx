@@ -6,14 +6,14 @@ const Impact = () => {
   const stats = [
     {
       icon: <Users size={24} />,
-      number: '500+',
+      number: '200+',
       label: 'Children Supported',
       description: 'Direct beneficiaries',
       color: 'var(--primary-orange)'
     },
     {
       icon: <Heart size={24} />,
-      number: '25+',
+      number: '15+',
       label: 'Communities Served',
       description: 'Active communities',
       color: 'var(--primary-green)'
@@ -24,13 +24,6 @@ const Impact = () => {
       label: 'Programs Completed',
       description: 'Successfully implemented',
       color: 'var(--primary-orange)'
-    },
-    {
-      icon: <MapPin size={24} />,
-      number: '10+',
-      label: 'States Covered',
-      description: 'Geographic reach',
-      color: 'var(--primary-green)'
     }
   ];
 

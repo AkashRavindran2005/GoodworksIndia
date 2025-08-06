@@ -44,7 +44,7 @@ const About = () => {
                 color: 'var(--text-dark)',
                 marginBottom: '1.5rem'
               }}>
-                About <span style={{ color: 'var(--primary-orange)' }}>GoodworksIndia</span>
+                About <span style={{ color: 'var(--primary-orange)' }}>Goodworks India</span>
               </h1>
               <p style={{
                 fontSize: '1.125rem',
@@ -52,8 +52,7 @@ const About = () => {
                 lineHeight: '1.7',
                 marginBottom: '2rem'
               }}>
-                We are a passionate team of professionals dedicated to creating meaningful change 
-                in the lives of children and communities across India.
+                We are a purpose-driven nonprofit organization committed to creating sustainable change across communities in India. From empowering children through quality education to uplifting underprivileged families, supporting youth development, and advancing rural progress, our initiatives are designed to build inclusive, self-reliant societies. With a deep belief in collaboration and compassion, we strive to bridge gaps and bring opportunities to those who need them most. Together, we work not for income, but for outcome.
               </p>
             </motion.div>
             
@@ -101,8 +100,7 @@ const About = () => {
                 color: 'var(--text-light)',
                 lineHeight: '1.6'
               }}>
-                To empower children and communities by providing access to quality education, 
-                healthcare, and sustainable development opportunities.
+                To uplift underserved communities by providing access to education, healthcare, and sustainable development opportunities, empowering individuals to lead dignified, self-reliant lives.
               </p>
             </motion.div>
 
@@ -130,8 +128,7 @@ const About = () => {
                 color: 'var(--text-light)',
                 lineHeight: '1.6'
               }}>
-                A world where every child has equal opportunities to thrive and contribute 
-                to building stronger, more resilient communities.
+                To create an inclusive society where every individual, regardless of background, has the resources and support to grow, contribute, and thrive.
               </p>
             </motion.div>
           </div>
