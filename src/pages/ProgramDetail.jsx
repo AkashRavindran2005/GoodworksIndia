@@ -266,7 +266,6 @@ const programsData = {
         </div>
       </section>
 
-      {/* Objectives and Activities */}
       <section className="section" style={{ backgroundColor: 'var(--background-light)' }}>
         <div className="container">
           <div className="grid grid-2">
@@ -313,7 +312,6 @@ const programsData = {
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="section">
         <div className="container">
           <motion.div
