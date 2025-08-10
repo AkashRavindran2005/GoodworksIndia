@@ -1,36 +1,45 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Heart, Users, Utensils, GraduationCap, Home, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom'; // <- ADD THIS LINE
+
 
 const Programs = () => {
   const programs = [
     {
-      icon: <BookOpen size={24} />,
-      title: 'Education Program',
-      description: 'Comprehensive educational support for underprivileged children.',
+      id: 'education-lifelong-learning',
+      title: 'Education & Lifelong Learning',
+      description: 'From early schooling to higher studies, mentoring, and extracurricular activities that nurture knowledge, creativity, and talent.',
       image: './education.jpg',
-      category: 'Education',
     },
     {
-      icon: <Heart size={24} />,
-      title: 'Healthcare Initiative',
-      description: 'Medical camps and health awareness programs for communities.',
+      id: 'health-wellness',
+      title: 'Health & Wellness',
+      description: 'Initiatives in preventive healthcare, nutrition awareness, and mental wellness for healthier communities.',
       image: './health.jpg',
-      category: 'Healthcare',
     },
     {
-      icon: <Users size={24} />,
-      title: 'Community Development',
-      description: 'Skill development and livelihood programs.',
+      id: 'community-development-sustainability',
+      title: 'Community Development & Sustainability',
+      description: 'Improving infrastructure, promoting eco-friendly practices, and driving awareness for a greener, more resilient future.',
       image: './community.jpg',
-      category: 'Community',
     },
     {
-      icon: <Utensils size={24} />,
-      title: 'Nutrition Program',
-      description: 'Ensuring proper nutrition for growing children.',
-      image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-      category: 'Nutrition',
+      id: 'women-youth-empowerment',
+      title: 'Women & Youth Empowerment',
+      description: 'Providing skills, education, and opportunities that enable women and young people to achieve equality, independence, and leadership.',
+      image: './women.jpg',
+    },
+    {
+      id: 'skills-livelihood-development',
+      title: 'Skills & Livelihood Development',
+      description: 'Vocational training, entrepreneurship support, and digital literacy to promote financial independence.',
+      image: './skills.jpg',
+    },
+    {
+      id: 'relief-humanitarian-aid',
+      title: 'Relief & Humanitarian Aid',
+      description: 'Delivering emergency assistance, food, and rehabilitation support during natural disasters and crises.',
+      image: './relief.jpg',
     }
   ];
 
@@ -92,22 +101,6 @@ const Programs = () => {
                       objectFit: 'cover'
                     }}
                   />
-                  <div style={{
-                    position: 'absolute',
-                    top: '15px',
-                    left: '15px',
-                    background: 'var(--primary-orange)',
-                    color: 'var(--white)',
-                    padding: '0.5rem',
-                    borderRadius: '50%',
-                    width: '40px',
-                    height: '40px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    {program.icon}
-                  </div>
                 </div>
                 
                 <div style={{
@@ -133,9 +126,9 @@ const Programs = () => {
                   }}>
                     {program.description}
                   </p>  
-                  <button className="btn btn-outline" style={{ width: '100%' }}>
-                    Learn More <ArrowRight size={16} />
-                  </button>
+                  <Link to={`/programs/${program.id}`} className="btn btn-primary">
+                    Learn More
+                  </Link>
                 </div>
               </motion.div>
             ))}

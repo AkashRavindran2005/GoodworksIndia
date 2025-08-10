@@ -11,7 +11,6 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Programs', path: '/programs' },
-    { name: 'Impact', path: '/impact' },
     { name: 'Contact', path: '/contact' }
   ];
 
@@ -66,7 +65,7 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Link to="/contact" className="btn btn-primary">
+            <Link to="/donate" className="btn btn-primary">
               Donate Now
             </Link>
           </div>

@@ -29,25 +29,25 @@ const Contact = () => {
     {
       icon: <Phone size={20} />,
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 87654 32109'],
+      details: ['+91 98402 63329'],
       color: 'var(--primary-orange)'
     },
     {
       icon: <Mail size={20} />,
       title: 'Email',
-      details: ['info@goodworksindia.org', 'support@goodworksindia.org'],
+      details: ['goodworksindia2022@gmail.com'],
       color: 'var(--primary-green)'
     },
     {
       icon: <MapPin size={20} />,
       title: 'Address',
-      details: ['123 Community Street', 'New Delhi, India 110001'],
+      details: ['R601 KLP Utsav Apartments, 292, Cooks Road','Otteri, Chennai - 600012'],
       color: 'var(--primary-orange)'
     },
     {
       icon: <Clock size={20} />,
       title: 'Office Hours',
-      details: ['Monday - Friday: 9:00 AM - 6:00 PM', 'Saturday: 9:00 AM - 2:00 PM'],
+      details: ['Monday - Saturday: 9:00 AM - 3:00PM'],
       color: 'var(--primary-green)'
     }
   ];

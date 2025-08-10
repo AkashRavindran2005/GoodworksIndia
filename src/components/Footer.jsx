@@ -11,10 +11,12 @@ const Footer = () => {
   ];
 
   const programs = [
-    'Education Support',
-    'Healthcare Initiatives',
-    'Community Development',
-    'Nutrition Programs'
+    'Education & Lifelong Learning',
+    'Health & Wellness',
+    'Community Development & Sustainability',
+    'Skills & Livelihood Development',
+    'Women & Youth Empowerment',
+    'Relief & Humanitarian Aid'
   ];
 
   const socialLinks = [

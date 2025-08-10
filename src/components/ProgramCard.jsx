@@ -31,7 +31,6 @@ const ProgramCard = ({ program, index }) => {
           position: 'absolute',
           top: '15px',
           left: '15px',
-          background: 'var(--primary-orange)',
           color: 'var(--white)',
           padding: '0.5rem',
           borderRadius: '50%',
@@ -69,14 +68,6 @@ const ProgramCard = ({ program, index }) => {
           justifyContent: 'space-between',
           alignItems: 'center'
         }}>
-          <span style={{
-            color: 'var(--primary-green)',
-            fontWeight: '600',
-            fontSize: '0.875rem'
-          }}>
-            {program.category || 'Category'}
-          </span>
-          <ArrowRight size={18} style={{ color: 'var(--primary-orange)' }} />
         </div>
       </div>
     </motion.div>

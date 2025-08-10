@@ -10,52 +10,39 @@ import NewsletterForm from '../components/NewsletterForm';
 const Home = () => {
   const programs = [
     {
-      icon: <BookOpen size={20} />,
-      title: 'Education Program',
-      description: 'Comprehensive educational support for underprivileged children.',
-      category: 'Education',
-      image: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+      title: 'Education & Lifelong Learning',
+      description: 'From early schooling to higher studies, mentoring, and extracurricular activities that nurture knowledge, creativity, and talent.',
+      image: './education.jpg',
     },
     {
-      icon: <Heart size={20} />,
-      title: 'Healthcare Initiative',
-      description: 'Medical camps and health awareness programs for communities.',
-      category: 'Healthcare',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+      title: 'Health & Wellness',
+      description: 'Initiatives in preventive healthcare, nutrition awareness, and mental wellness for healthier communities.',
+      image: './health.jpg',
     },
     {
-      icon: <Users size={20} />,
-      title: 'Community Development',
-      description: 'Skills development and livelihood programs.',
-      category: 'Community',
-      image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+      title: 'Community Development & Sustainability',
+      description: 'Improving infrastructure, promoting eco-friendly practices, and driving awareness for a greener, more resilient future.',
+      image: './community.jpg',
     },
-    {
-      icon: <Utensils size={20} />,
-      title: 'Nutrition Program',
-      description: 'Ensuring proper nutrition for growing children.',
-      category: 'Nutrition',
-      image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
-    }
   ];
 
   const focusAreas = [
     {
       icon: <GraduationCap size={40} />,
-      title: 'Education',
-      description: 'Providing holistic education to underprivileged children through innovative learning programs.',
+      title: 'Education & Skill Development',
+      description: 'Expanding access to quality learning and career-building opportunities.',
       color: 'var(--primary-orange)'
     },
     {
       icon: <Heart size={40} />,
-      title: 'Healthcare',
-      description: 'Ensuring access to quality healthcare services including medical camps and health awareness.',
+      title: 'Health & Well-being',
+      description: 'Promoting physical, mental, and nutritional wellness for all.',
       color: 'var(--primary-green)'
     },
     {
       icon: <HomeIcon size={40} />,
-      title: 'Community Development',
-      description: 'Building stronger communities through skill development and sustainable livelihood programs.',
+      title: 'Empowerment & Inclusion',
+      description: 'Advancing equality, leadership, and community participation across all groups.',
       color: 'var(--primary-orange)'
     }
   ];
