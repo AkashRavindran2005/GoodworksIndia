@@ -133,7 +133,7 @@ const programsData = {
       'Apprenticeship opportunities with industry partners',
       'Financial literacy and budgeting workshops'
     ],
-    gallery: ['/skills-1.jpg', '/skills-2.jpg']
+    gallery: ['/skills-1.jpg', '/skills-2.jpg', '/skills-3.jpeg']
   },
 
   'relief-humanitarian-aid': {
